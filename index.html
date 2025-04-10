@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SRIT Seat Allotment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>SRIT Seat Allotment System</h1>
+    <input type="text" id="rollInput" placeholder="Enter Roll Number or Hall Ticket">
+    <button onclick="findSeat()">Find My Seat</button>
+    <div id="loader" class="loader hidden"></div>
+    <div id="result" class="hidden"></div>
+    <h3 id="layoutTitle" class="hidden">Room Bench Layout</h3>
+    <div id="layout" class="layout"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
