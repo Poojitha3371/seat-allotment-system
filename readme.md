@@ -15,5 +15,3 @@
 - CSM: `224G1A3301`
 - CSD: `224G1A3201`
 Each maps to a block and room like `MAIN-002`, `A-15`, `B-008`, etc.
-## 🏁 License
-This project is created for educational use at SRIT and is free to modify for academic purposes.
